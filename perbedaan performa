@@ -1,0 +1,9 @@
+logistic regression
+  F1 Score: 0.74
+  Best parameters found:  {'classifier__C': 0.1, 'classifier__class_weight': {0: 2, 1: 1}, 'classifier__penalty': 'l1', 'classifier__solver': 'liblinear'}
+  Best cross-validation score: 0.82
+
+DecisionTree
+  F1 Score: 0.76
+  Best parameters found:  {'classifier__criterion': 'entropy', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 10, 'classifier__splitter': 'random'}
+  Best cross-validation score: 0.83
